@@ -6,19 +6,19 @@
 import { connect } from 'cloudflare:sockets';
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = 'ea2f459c-3728-41a0-b54a-65c92ec89b7e';
 
 //Find proxyIP : https://github.com/NiREvil/vless/blob/main/sub/ProxyIP.md
 //Find proxyIP : https://www.nslookup.io/domains/ipdb.rr.nu/dns-records/
-const proxyIPs= ['bpb.radically.pro']; // OR use ['bpb.radically.pro', 'turk.radicalization.ir', 'bpb.yousef.isegaro.com', 'proxyip.digitalocean.hw.090227.xyz'];
+const proxyIPs= ['34.94.2.102', 'nima.nscl.ir']; // OR use ['bpb.radically.pro', 'turk.radicalization.ir', 'bpb.yousef.isegaro.com', 'proxyip.digitalocean.hw.090227.xyz'];
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-let dohURL = 'https://cloudflare-dns.com/dns-query';
-let trojanPassword = `REvil`;
+let dohURL = 'https://cfpr.ir-team.ir/111334/https/dns.google/dns-query';
+let trojanPassword = `111334`;
 // https://emn178.github.io/online-tools/sha224.html
 // https://www.atatus.com/tools/sha224-to-hash
-let hashPassword = '6dfd0e8e67ad3230498f80938cb924bc767b7db65eb4c9545fbe4ad7';
+let hashPassword = 'd5b74fbc84a6b02abc57c6a9f40b8235ab6507dd65bf00775ad012a0';
 let panelVersion = 'V2.6';
 
 if (!isValidUUID(userID)) throw new Error(`Invalid UUID: ${userID}`);
