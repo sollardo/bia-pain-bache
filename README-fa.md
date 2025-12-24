@@ -49,7 +49,7 @@
 <br><br>
 
 
-## نحوه راه اندازی و تنظیمات
+## نحوه درست راه اندازی و تنظیمات
 - [نصب به صورت Pages](docs/pages_installation_fa.md)
 - [نصب به صورت Worker](docs/worker_installation_fa.md)
 - [پیدا کردن Proxy IP](docs/proxy-ip-scanner.md)
